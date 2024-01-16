@@ -1,0 +1,7 @@
+Pipeline
+https://martinfowler.com/articles/cd4ml.html
+
+architecture
+https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html
+
+
