@@ -1,1 +1,3 @@
-import pandas as pd
+import logging
+
+from regression_model.config import config
