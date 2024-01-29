@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Environnement virtuel
+env/
+virtualenv/
+.venv/
+venv/
+ENV/
+
+# Fichiers générés par l'environnement de développement
+.vscode/
+.idea/
+
+# Fichiers de sortie et répertoires générés par des outils de construction
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# datafiles
+packages/regression_model/regression_model/datasets/*.csv
+packages/regression_model/regression_model/datasets/*.zip
+packages/regression_model/regression_model/datasets/*.txt
