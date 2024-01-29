@@ -15,3 +15,6 @@ pytest
 # packaging
 setuptools
 wheel
+
+jinja2==3.0.3
+Werkzeug==2.2.2

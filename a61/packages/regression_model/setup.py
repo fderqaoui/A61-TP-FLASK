@@ -42,8 +42,8 @@ except FileNotFoundError:
 
 # Load the package's __version__.py module as a dictionary.
 ROOT_DIR = Path(__file__).resolve().parent
-#PACKAGE_DIR = ROOT_DIR / NAME
-PACKAGE_DIR = ROOT_DIR
+PACKAGE_DIR = ROOT_DIR / NAME
+#PACKAGE_DIR = ROOT_DIR
 about = {}
 with open(PACKAGE_DIR / 'VERSION') as f:
     _version = f.read().strip()

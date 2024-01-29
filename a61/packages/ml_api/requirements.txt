@@ -1,0 +1,6 @@
+# api
+flask
+
+# local regression_model package
+# update with your local path
+-e "/Users/mathmac/Desktop/Cours CEGEP/420-A61-SF PRÉPARATION DE LA SOLUTION IA/TP1-A61/A61-TP-FLASK/a61/packages/regression_model"
