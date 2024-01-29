@@ -8,7 +8,10 @@ from regression_model.config import config
 #Ingenierie de fonctionnalites
 from regression_model.processing import features
 
+#Logging
+import logging
 
+_logger = logging.getLogger(__name__)
 
 price_pipe = Pipeline(
     [
