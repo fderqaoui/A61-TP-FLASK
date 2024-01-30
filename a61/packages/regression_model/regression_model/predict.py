@@ -6,6 +6,7 @@ from regression_model.config import config
 from regression_model.processing.validation import validate_inputs
 from regression_model import __version__ as _version
 
+from io import StringIO
 import logging
 
 
@@ -18,7 +19,8 @@ _price_pipe = load_pipeline(file_name=pipeline_file_name)
 def make_prediction(*, input_data) -> dict:
     """Make a prediction using the saved model pipeline."""
     print(" ---CALL make_prediction() --- ")
-    data = pd.read_json(input_data)
+    data = pd.read_json(StringIO(input_data))
+
     #prediction = _price_pipe.predict(data[config.FEATURES])
     validated_data = validate_inputs(input_data=data)
     prediction = _price_pipe.predict(validated_data[config.FEATURES])
